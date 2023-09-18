@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-2</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column{
+            flex-grow: 2;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .column:nth-child(2){
+            flex-grow: 1;
+        }
+        .item{
+            flex-grow: 1;
+            height: 50px;
+            background-color: red;
+            color: white;
+            margin: 2px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="item">1</div>
+            <div class="item">2</div>
+        </div>
+        <div class="column">
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </div>
+    </div>
+</body>
+</html>

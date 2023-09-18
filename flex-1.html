@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            height: 90vh;
+            align-items: center;
+            justify-content: center;       
+        }
+        .card{
+            width: 260px;
+            height: 226px;
+            border: 1px solid red;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="column">
+            <div class="card" style="height: 150px;">Vertical Box</div>
+            <div class="card" style="height: 150px;">Vertical Box</div>
+            <div class="card" style="height: 150px;">Vertical Box</div>
+        </div>
+        <div class="column">
+            <div class="card">Vertical Box</div>
+            <div class="card">Vertical Box</div>
+        </div>
+        <div class="column">
+            <div class="card" style="height: 455px;">Vertical Box</div>
+        </div>
+    </div>
+</body>
+</html>

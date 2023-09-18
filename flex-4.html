@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .column{
+            flex-grow: 1;
+        }
+        .column:nth-child(2){    
+            flex-grow: 2;
+        }
+        .item{
+            text-align: center;
+            padding-top: 20px;
+            margin: 5px;
+        }
+        .column-inside{
+            display: flex;
+            flex-direction:row;
+        }
+        .item:nth-child(1){
+            flex-grow: 1;
+        }
+        .inside{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column item" style="background-color: indianred;">1</div>
+        <div class="column">
+            <div class="item" style="background-color: chartreuse;">2</div>
+            <div class="column-inside">
+                <div class="item" style="background-color: plum;">3</div>
+                <div class="inside">
+                    <div class="item" style="background-color: cornflowerblue;">4a</div>
+                    <div class="item" style="background-color: cornflowerblue;">4b</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

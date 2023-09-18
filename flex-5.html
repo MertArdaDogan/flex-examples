@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            padding-top: 20px;
+            text-align: center;
+            margin: 10px;
+            flex-grow: 1;
+        }
+        .aside{
+            flex-grow: 1;
+        }
+        .article{
+            display: flex;
+            flex-grow: 2;
+            padding-top: 50px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header item" style="background-color: aqua;">Header</div>
+        <div class="main">
+            <div class="aside item" style="background-color: chartreuse;">Aside</div>
+            <div class="article item" style="background-color: orange;"> Article
+                <div class="item" style="background-color: yellow;">Image</div>
+                <div class="item" style="background-color: yellow;">Image</div>
+                <div class="item" style="background-color: yellow;">Image</div>
+            </div>
+        </div>
+        <div class="footer item" style="background-color: aqua;">Footer</div>
+    </div>
+</body>
+</html>

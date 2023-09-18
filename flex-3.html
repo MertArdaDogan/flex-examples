@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-3</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .item{
+            flex-grow: 3;
+            padding-top: 50px;
+            background-color: darksalmon;
+            text-align: center;
+            margin: 1px;
+        }
+        .item:nth-child(3){
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column item">1</div>
+        <div class="column">
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+        <div class="column item">4</div>
+    </div>
+</body>
+</html>
