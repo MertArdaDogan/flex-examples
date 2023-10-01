@@ -11,3 +11,12 @@
 
 ## flex-example - 5
 ![flex-5](https://github.com/MertArdaDogan/flex-examples/assets/136620536/b21f5fc6-2874-4d89-bf72-29c592e91d00)
+
+## flex-example - 6
+![flex-6](https://github.com/MertArdaDogan/flex-examples/assets/136620536/581b230b-b170-4b9f-88b3-85f9088c6990)
+
+## flex-example - 7
+![flex-7](https://github.com/MertArdaDogan/flex-examples/assets/136620536/001c0035-2fb8-4f0e-ac1e-6428f7cbdfa7)
+
+## flex-example - 8
+![flex-8](https://github.com/MertArdaDogan/flex-examples/assets/136620536/a558aae3-5a87-4599-b05d-c66d96b27bb4)
